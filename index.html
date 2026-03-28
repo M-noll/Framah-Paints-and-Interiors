@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Framah Paints and Interior | Quality Interior & Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--head and nav bar-->
+    <nav class="navbar">
+        <div>
+            <a href="#home" class="namelogo"><span>Framah Paints and Interior</span></a>
+        </div>
+        <div class="logo-container">
+            <a href="#home">
+                <img src="images/logo.png" alt="Framah Interiors Logo" class="nav-logo">
+            </a>
+        </div>
+        <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="nav_right">
+                <a href="#contact" class="btn-contact">Get In Touch</a>
+            </div>
+        </ul>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h2>The Essence of Creativity</h2>
+                <h4>Quality Supplies. Expert Installation.</h4>
+                <p>Premium Hardware Supplies & Bespoke Interior Design Services.
+                    Your one-stop shop for hardware supplies and professional home services.</p>
+                <div class="button-container">
+                    <a href="#products" class="btn-primary">Shop Products</a>
+                    <a href="#booking" class="btn-secondary">Book a Consultation</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="about-us" class="about-us">
+        <h2> About us</h2>
+        <div>
+            <p>
+                Framah paints and interior is a leading provider of high quality supplies and
+                processional services in design , construcion,home improvements and maintenance.
+                We are committed to delivering exceptional and reliable services to our customers,
+                ensuring their satisfaction and building trust through our dedication to quality professionalism.
+            </p>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-container">
+            <div class="service-box">
+                <h3>Hardware Supply</h3>
+                <p>Top-tier construction tools and materials.</p>
+            </div>
+            <div class="service-box">
+                <h3>Plumbing</h3>
+                <p>Expert repair and new system piping.</p>
+            </div>
+            <div class="service-box">
+                <h3>Welding Services</h3>
+                <p>Professional welding and fabrication services.</p>
+            </div>
+            <div class="service-box">
+                <h3>Gypsum Services</h3>
+                <p>Remarkable quality in gypsum ceiling and wall finishing.</p>
+            </div>
+            <div class="service-box">
+                <h3>Paint supply</h3>
+                <p>Quality wide variety of paints and supplies.</p>
+            </div>
+            <div class="service-box">
+                <h3>Painting services</h3>
+                <p>Unmatched interior and exterior painting services</p>
+            </div>
+            <div class="service-box">
+                <h3>Cabinet and fittings</h3>
+                <p>Exquisite cabinerty and fittings </p>
+            </div>
+            <div class="service-box">
+                <h3>Tile works</h3>
+                <p>Professional tile installation and repair services.</p>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio" class="gallery">
+        <h2>Our Work</h2>
+        <div id="gallery-wrapper" class="gallery-container"></div>
+        <button id="see-more-btn" class="btn">See More</button>
+    </section>
+
+    <section id="booking" class="booking">
+        <h2>Book a Consultation</h2>
+        <form action="https://formspree.io/f/xwvrvqar" method="POST">
+            <input type="text" name="customer_name" placeholder="Your Name" required>
+            <input type="email" name="customer_email" placeholder="Your Email" required>
+            <select name="service_requested">
+                <option value="painting">Painting Services</option>
+                <option value="installation">Installation Service</option>
+                <option value="repair">Repair/Maintenance</option>
+            </select>
+            <input type="date" name="booking_date">
+            <button type="submit" class="submit_btn">Submit Request</button>
+        </form>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>ABOUT</h3>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about-us">ABOUT US</a></li>
+                    <li><a href="#contact">CONTACT US</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>SERVICES</h3>
+                <ul>
+                    <li><a href="#services">INTERIOR DESIGN</a></li>
+                    <li><a href="#services">PAINTING SERVICES</a></li>
+                    <li><a href="#services">GYPSUM & CEILING</a></li>
+                    <li><a href="#services">TILE WORKS</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>USEFUL LINKS</h3>
+                <ul>
+                    <li><a href="#">TERMS AND CONDITIONS</a></li>
+                    <li><a href="#">PRIVACY POLICY</a></li>
+                    <li><a href="#">NEWS</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>FRAMAH INTERIORS</h3>
+                <p>At Framah Interiors, we believe that every space tells a story. Our passion lies in crafting
+                    beautiful, functional, and inspiring interiors that reflect your unique style and vision.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Framah Paints and Interior. All rights reserved.</p>
+        </div>
+    </footer>
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close" id="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" src="" alt="Popup Image">
+        <div id="lightbox-caption"></div>
+    </div>
+    <a href="https://wa.me/254793976882" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"
+            class="whatsapp-icon">
+    </a>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
